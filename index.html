@@ -10,7 +10,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Ipad form</title>
+	<title>Application form</title>
 	<meta name="description" content="">
 	<meta name="viewport"
 		  content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
@@ -23,7 +23,7 @@
 </head>
 <body>
 <form class="donate-form" id="formOne">
-	<h1>Titel</h1>
+	<h1>Title</h1>
 	<input class="btn native right" type="reset" id="reset" value="Wis gegevens">
 
 	<div class="clearfix"></div>
@@ -31,93 +31,79 @@
 	<fieldset>
 		<ul class="formList">
 			<li>
-				<label for="form_letters">Voorletters*</label>
+				<label for="form_letters">Initials*</label>
 				<input id="form_letters" name="form_letters" type="text" autocomplete="off" autocorrect="off"
 					   class="required firstUppercase"/>
 			</li>
 			<li>
-				<label for="form_name">Voornaam*</label>
+				<label for="form_name">Name*</label>
 				<input id="form_name" name="form_name" type="text" autocomplete="off" autocorrect="off"
 					   class="required firstUppercase"/>
 			</li>
 			<li>
-				<label for="form_prefix">Voorvoegsel</label>
+				<label for="form_prefix">Name prefix</label>
 				<input id="form_prefix" name="form_prefix" type="text" autocomplete="off" autocorrect="off"/>
 			</li>
 			<li>
-				<label for="form_surname">Achternaam*</label>
+				<label for="form_surname">Surname*</label>
 				<input id="form_surname" name="form_surname" type="text" autocomplete="off" autocorrect="off"
 					   class="required firstUppercase"/>
 			</li>
 			<li>
-				<label>Geslacht*</label>
+				<label>Gender*</label>
 				<fieldset class="radioGroup" data-role="controlgroup" data-type="horizontal" id="gender">
-					<input type="radio" name="gender" id="form_gender-male" value="man" class="required"/>
-					<label for="form_gender-male">Man</label>
+					<input type="radio" name="gender" id="form_gender-male" value="Men" class="required"/>
+					<label for="form_gender-male">Men</label>
 
-					<input type="radio" name="gender" id="form_gender-female" value="vrouw"/>
-					<label for="form_gender-female">Vrouw</label>
+					<input type="radio" name="gender" id="form_gender-female" value="Woman"/>
+					<label for="form_gender-female">Woman</label>
 				</fieldset>
 			</li>
 			<li>
-				<label for="form_zipcode">Postcode*</label>
+				<label for="form_zipcode">Zipcode*</label>
 				<input id="form_zipcode" name="form_zipcode" type="tel" autocomplete="off" autocorrect="off"
 					   class="required"/>
 			</li>
 			<li>
-				<label for="form_homenumber">Huisnummer*</label>
+				<label for="form_homenumber">House number*</label>
 				<input id="form_homenumber" name="form_homenumber" type="tel" autocomplete="off" autocorrect="off"
 					   class="required firstUppercase onlyNumbers"/>
 			</li>
 			<li>
-				<label for="form_numberaddition">Toevoegsel</label>
+				<label for="form_numberaddition">Number addition</label>
 				<input id="form_numberaddition" name="form_numberaddition" type="text" autocomplete="off"
 					   autocorrect="off"
 					   class="firstUppercase"/>
 			</li>
 			<li>
-				<label for="form_streetname">Straatnaam*</label>
+				<label for="form_streetname">Street*</label>
 				<input id="form_streetname" name="form_streetname" type="text" autocomplete="off" autocorrect="off"
 					   class="required firstUppercase" spellcheck="false"/>
 			</li>
 			<li>
-				<label for="form_place">Woonplaats*</label>
+				<label for="form_place">Residence*</label>
 				<input id="form_place" name="form_place" type="text" autocomplete="off" autocorrect="off"
 					   class="required firstUppercase"/>
 			</li>
 
 			<li>
-				<label for="form_phone">Telefoon vast*</label>
+				<label for="form_phone">Phone *</label>
 				<input id="form_phone" name="form_phone" type="tel" autocomplete="off" autocorrect="on"
 					   class="depend">
 			</li>
 			<li>
-				<label for="form_mobilephone">Telefoon mobiel</label>
+				<label for="form_mobilephone">Mobile phone *</label>
 				<input id="form_mobilephone" name="form_mobilephone" type="tel" autocomplete="off" autocorrect="on"
 					   class="dependingOn">
 			</li>
 			<li>
-				<label for="form_birthday">Geboortedatum*</label>
+				<label for="form_birthday">Date of birth*</label>
 				<input id="form_birthday" name="form_birthday" type="date" autocomplete="off" autocorrect="off">
 			</li>
 			<li>
-				<label for="form_email">E-mailadres*</label>
+				<label for="form_email">Email*</label>
 				<input id="form_email" name="form_email" type="email" autocomplete="off" autocorrect="off"
 					   class="required">
-			</li>
-			<li>
-				<label for="form_newsletter">Graag blijf ik op de hoogte over het werk en de ontwikkelingen van CARE
-					Nederland*</label>
-				<fieldset class="radioGroup" data-role="controlgroup" data-type="horizontal" id="form_newsletter">
-					<input type="radio" name="newsletter" id="form_newsletterEmail" value="e-mail" class="required"/>
-					<label for="form_newsletterEmail">Per e-mail</label>
-
-					<input type="radio" name="newsletter" id="form_newsletterPost" value="post"/>
-					<label for="form_newsletterPost">Per post</label>
-
-					<input type="radio" name="newsletter" id="form_newsletterPostAndEmail" value="post-email"/>
-					<label for="form_newsletterPostAndEmail">Per post en per e-mail</label>
-				</fieldset>
 			</li>
 			<li>
 				<label>Ja selecteren*</label>
@@ -130,51 +116,24 @@
 				</fieldset>
 			</li>
 			<li>
-				<p>KWF Kankerbestrijding kan uw gegevens gebruiken ten behoeve van marketingdoeleinden. Uw gegevens worden niet aan derden verstrekt.</p>
+				<p>Here some other labeld before the giant selectbox</p>
 				<input id="check1" name="check1" type="checkbox" class="required">
 					<label class="selectableRow Os" for="check1">
 						<span class="icon"></span>
-						<p class="med largeFS">Ik heb er bezwaar tegen als KWF mij via email op de hoogte houdt van haar activiteiten.</p>
+						<p class="med largeFS">Yes, I do.</p>
 					</label>
-			</li>
-		</ul>
-	</fieldset>
-	<h1>Steun</h1>
-	<fieldset class="multi">
-		<ul class="formList" id="frequencyDonation">
-			<li>
-				<label class="donate">Doneren</label>
-			</li>
-			<li class="select">
-				<label>maand</label>
-				<fieldset class="radioGroup donation" data-role="controlgroup" data-type="horizontal" id="form_donationMontly">
-					<input type="radio" name="form_monthly" id="form_monthly6" value="6"/>
-					<label for="form_monthly6">6 euro</label>
-
-					<input type="radio" name="form_monthly" id="form_monthly7" value="7.5"/>
-					<label for="form_monthly7">7,50 euro</label>
-
-					<input type="radio" name="form_monthly" id="form_monthly9" value="9"/>
-					<label for="form_monthly9">9 euro</label>
-
-					<input type="radio" name="form_monthly" id="form_monthlyDifferent" value="over 9"
-						   class="different"/>
-					<label for="form_monthlyDifferent">Anders:</label>
-				</fieldset>
-				<input class="hidden differentInput" id="form_monthlyInput" name="form_monthlyInput" type="text" autocomplete="off"
-					   autocorrect="off" placeholder="namelijk" data-value="9">
 			</li>
 		</ul>
 	</fieldset>
 	<fieldset>
 		<ul class="formList">
 			<li>
-				<label for="form_bankAccount">Rekening nummer*</label>
+				<label for="form_bankAccount">Dutch bank account*</label>
 				<input id="form_bankAccount" name="form_bankAccount" class="bankAccountCheck" type="number" autocomplete="off"
 					   autocorrect="off" class="numbersOnly">
 			</li>
 			<li>
-				<label for="form_cardnameYes">Is naam- en rekeningnummer zoals vermeld op de bankpas?*</label>
+				<label for="form_cardnameYes">Are name and number identical on bankcard?*</label>
 				<fieldset class="radioGroup">
 					<input type="radio" name="bankAccount_check" value="yes" id="form_cardnameYes" class="requiredRadioValue"/>
 					<label for="form_cardnameYes">Ja</label>
@@ -185,20 +144,6 @@
 			</li>
 		</ul>
 	</fieldset>
-	<fieldset>
-		<ul class="formList">
-			<li>
-				<label for="form_userID">PersID (ID)</label>
-				<input id="form_userID" type="tel" disabled value="PersID">
-			</li>
-			<li>
-				<label for="form_location_text">Lokatiecode</label>
-				<input id="form_location_text" name="form_locatie_text" type="text" autocomplete="off" autocorrect="off"
-					   placeholder="code">
-			</li>
-		</ul>
-	</fieldset>
-	<a href="#" class="terms">Contact en voorwaarden</a>
 	<input type="submit" class="btn native right submit orange" href="#" style="margin-bottom: 20px;" value="Volgende">
 </form>
 
