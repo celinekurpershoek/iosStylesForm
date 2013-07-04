@@ -1,5 +1,10 @@
-# iOS style Form
+iOS style Form
+==============
 
+A simple form style for use in html web apps. Styled in CSS3.
 
-- [ ] Write comments in English
-- [ ] Make the form responsive
+Todo list
+---------
+
+- Write comments in English
+- Make the form responsive
